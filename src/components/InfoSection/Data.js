@@ -1,4 +1,3 @@
-
 export const homeObjOne = {
     id: 'about',
     lightText: true,
@@ -7,8 +6,8 @@ export const homeObjOne = {
     headline: 'Indy Boxing and Grappling',
     description: 'Indy Boxing and Grappling is a community based facility that is devoted to providing kids with top-level martial arts training and mentoring. Training sessions are currently divided into boxing, wrestling, and Brazilian Jiu Jitsu; this is not "kids MMA." Conflict resolution classes, as well as social media/internet awareness classes will be provided.',
     imgStart: true,
-    img: require('../../images/svg-1.svg'),
-    alt: 'about_section'
+    img: require('../../images/boxing.jpg'),
+    alt: 'about-section'
 }
 
 export const homeObjTwo = {
@@ -36,9 +35,9 @@ export const homeObjThree = {
     headline: 'Address and Hours',
     description: '4903 East 23rd Street Indianapolis, IN 46201',
     imgStart: false,
-    img: require('../../images/svg-3.svg'),
-    alt: 'Car',
+    img: require('../../images/boxing.jpg'),
+    alt: 'Address and Hours of operation',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: false,
 }
