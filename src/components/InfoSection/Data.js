@@ -1,3 +1,4 @@
+/* eslint-disable no-dupe-keys */
 export const homeObjOne = {
     id: 'about',
     lightText: true,
@@ -6,7 +7,7 @@ export const homeObjOne = {
     headline: 'Indy Boxing and Grappling',
     description: 'Indy Boxing and Grappling is a community based facility that is devoted to providing kids with top-level martial arts training and mentoring. Training sessions are currently divided into boxing, wrestling, and Brazilian Jiu Jitsu; this is not "kids MMA." Conflict resolution classes, as well as social media/internet awareness classes will be provided.',
     imgStart: true,
-    img: require('../../images/boxing.jpg'),
+    img: require ('../../images/boxing.jpg'),
     alt: 'about-section'
 }
 
@@ -34,6 +35,13 @@ export const homeObjThree = {
     lightTextDesc: true,
     headline: 'Address and Hours',
     description: '4903 East 23rd Street Indianapolis, IN 46201',
+ description: `Monday: 5:15pm-7:30pm
+ Tuesday: 5:15pm-7:30pm
+ Wednesday: 5:15pm-7:30pm
+ Thursday: 5:15pm-7:30pm
+ Friday: Closed
+ Saturday: 11:00am-1:30pm
+ Sunday: Closed`,
     imgStart: false,
     img: require('../../images/boxing.jpg'),
     alt: 'Address and Hours of operation',

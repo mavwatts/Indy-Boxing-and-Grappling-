@@ -20,9 +20,9 @@ const Home = () => {
          <Sidebar isOpen={isOpen} toggle={toggle}/>   
          <Navbar toggle={toggle}/>
          <HeroSection/>
-         <InfoSection {...homeObjOne}/>
+         <InfoSection {...homeObjOne} />
          <Services />
-         <InfoSection {...homeObjThree}/>
+         <InfoSection {...homeObjThree} />
          <InfoSection {...homeObjTwo}/>
          <Footer/>
         </>
